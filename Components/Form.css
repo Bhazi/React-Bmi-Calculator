@@ -1,0 +1,90 @@
+.BMIForm {
+  border: 2px none black;
+  padding-bottom: 35px;
+  width: 420px;
+  margin-left: 35%;
+  margin-top: 2%;
+  height: 170px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding-top: 4px;
+}
+.NameBMI {
+  text-align: center;
+  font-family: Calibri;
+  font-size: 33px;
+  font-weight: 500;
+  margin: 7px;
+  color: rgba(59, 57, 57, 0.952);
+}
+.Weight {
+  position: absolute;
+  left: 39%;
+  top: 15%;
+  font-family: Verdana;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(59, 57, 57, 0.856);
+}
+.weightBox {
+  position: absolute;
+  left: 39%;
+  top: 19%;
+  height: 32px;
+  width: 135px;
+  color: gray;
+  padding-left: 11px;
+  font-family: sans-serif;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border: none;
+}
+.Height {
+  position: absolute;
+  left: 52%;
+  top: 15%;
+  font-family: Verdana;
+  font-size: 13px;
+  font-weight: 450;
+  color: rgba(59, 57, 57, 0.856);
+}
+.heightBox {
+  position: absolute;
+  left: 52%;
+  top: 19%;
+  height: 32px;
+  width: 135px;
+  color: gray;
+  padding-left: 11px;
+  font-family: sans-serif;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border: none;
+}
+.submit {
+  background-color: rgb(39, 113, 223);
+  position: absolute;
+  left: 39%;
+  top: 27%;
+  height: 27px;
+  width: 80px;
+  color: rgb(235, 238, 240);
+  border: none;
+  border-radius: 3px;
+  padding: 2px;
+  font-family: Microsoft YaHei;
+}
+.submit:hover {
+  color: rgb(252, 252, 252);
+  background-color: rgb(81, 136, 224);
+  cursor: pointer;
+}
+.alert {
+  font-family: Microsoft YaHei;
+  top: 32%;
+  left: 39%;
+  position: absolute;
+  font-size: small;
+  color: rgb(226, 31, 31);
+}
